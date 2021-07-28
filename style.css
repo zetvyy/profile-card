@@ -38,6 +38,27 @@ section {
   height: 150px;
 }
 
+.img-holder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  overflow: hidden;
+  margin: -50px auto 30px auto;
+}
+
+.img-holder img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+span,
+.city,
+.meta {
+  color: hsl(0, 0%, 59%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
