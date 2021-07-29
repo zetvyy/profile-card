@@ -113,19 +113,33 @@ span,
 }
 
 .circles .c1 {
-  top: -350px;
-  left: -200px;
+  top: -300px;
+  left: -175px;
 }
 
 .circles .c2 {
   bottom: -300px;
-  right: -200px;
+  right: -175px;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 10px;
+  background-color: #eaeaea;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 300px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
 }
